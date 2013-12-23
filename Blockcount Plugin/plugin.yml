@@ -1,0 +1,11 @@
+name: BlockCounter
+main: com.gmail.johanringmann.blockcounter.BlockCounter
+version: 0.0.1
+commands:
+  blockcount:
+    description: Displays your BTC earnings and blockcount
+    aliases:  [btc, bitcoins, bitcoin, blocks]
+    usage: /<command> [player]
+permissions:
+  blockcounter.doublepay:
+    description: Doubles the pay pr. block a player receives
